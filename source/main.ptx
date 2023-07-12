@@ -129,6 +129,12 @@
           </solution>
         </exercise>
         <p>Hi mom</p>
+          <figure width="95%" xml:id="green1">
+            <caption>Green one</caption>
+            <image source="1.png" width="80%">
+              <description>It's a green digit 1.</description>
+            </image>
+          </figure>
       </section>
 
     </chapter>
