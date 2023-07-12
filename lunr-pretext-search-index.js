@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Section title",
-  "body": " Section title  Hello    hello  heya     What is ?   Use arithmetic.        means take the successor ordinal. For ...     hello  heya      hello  heya     What is ?   Use arithmetic.        means take the successor ordinal. For ...   Hi mom   Green one   It's a green digit 1.    "
+  "body": " Section title  Hello    hello  heya     What is ?   Use arithmetic.        means take the successor ordinal. For ...     hello  heya      hello  heya     What is ?   Use arithmetic.        means take the successor ordinal. For ...   Hi mom   Green one   It's a green digit 1.     Blue one   It's a blue digit 1.     "
 },
 {
   "id": "lem-hi",
@@ -71,6 +71,15 @@ var ptx_lunr_docs = [
   "number": "1.1.6",
   "title": "",
   "body": " Green one   It's a green digit 1.   "
+},
+{
+  "id": "blue1",
+  "level": "2",
+  "url": "section-title.html#blue1",
+  "type": "Figure",
+  "number": "1.1.7",
+  "title": "",
+  "body": " Blue one   It's a blue digit 1.    "
 },
 {
   "id": "colophon-2",
