@@ -135,6 +135,17 @@
               <description>It's a green digit 1.</description>
             </image>
           </figure>
+          <figure xml:id="blue1">
+            <caption>Blue one</caption>
+            <image width="25%">
+              <description>It's a blue digit 1.</description>
+              <latex-image>
+                \begin{tikzpicture}
+                  \node at (0,0) {\Huge \color{blue} 1};
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+          </figure>
       </section>
 
     </chapter>
