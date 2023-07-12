@@ -16,7 +16,7 @@
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project). Some examples:                                            -->
-    <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
+    <exercise-inline statement="yes" hint="yes" answer="yes" solution="yes" />
     <exercise-divisional statement="yes" hint="yes" />
     <!-- Style of fill-in-the-blanks: -->
     <fillin textstyle="underline" mathstyle="shade" />
@@ -33,7 +33,7 @@
     <!-- Set which marked elements are included in this version: -->
     <!-- See
     https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
-    <version include="student"/>
+    <version include="instructor"/>
   </source>
 
   <numbering>

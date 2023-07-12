@@ -15,7 +15,8 @@
 
   <book xml:id="my-great-book">
     <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <subtitle component="student">Student Version</subtitle>
+    <subtitle component="instructor">Instructor Version</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
