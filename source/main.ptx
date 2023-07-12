@@ -3,6 +3,8 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
+    <rename element="inlineexercise">Puzzle</rename>
+    <rename element="lemma">Hot Fact</rename>
     <macros>
       \newcommand{\R}{\mathbb R}
     </macros>
@@ -52,6 +54,81 @@
       <section xml:id="section-title">
         <title>Section title</title>
         <p>Hello</p>
+          <lemma xml:id="lem-hi">
+            <statement>
+              <p>
+                hello
+              </p>
+              <p>
+                heya
+              </p>
+            </statement>
+          </lemma>
+        <exercise>
+          <statement>
+            <p>
+              What is <m>1+1</m>?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Use arithmetic.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>2</m>
+            </p>
+          </answer>
+          <solution>
+            <p>
+              <m>+1</m> means take the successor ordinal. For <m>1=\{0\}</m>...
+            </p>
+          </solution>
+        </exercise>
+          <lemma xml:id="lem-2">
+            <statement>
+              <p>
+                hello
+              </p>
+              <p>
+                heya
+              </p>
+            </statement>
+          </lemma>
+          <lemma xml:id="lem-3">
+            <statement>
+              <p>
+                hello
+              </p>
+              <p>
+                heya
+              </p>
+            </statement>
+          </lemma>
+        <exercise>
+          <statement>
+            <p>
+              What is <m>1+1</m>?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Use arithmetic.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>2</m>
+            </p>
+          </answer>
+          <solution>
+            <p>
+              <m>+1</m> means take the successor ordinal. For <m>1=\{0\}</m>...
+            </p>
+          </solution>
+        </exercise>
+        <p>Hi mom</p>
       </section>
 
     </chapter>

@@ -16,7 +16,7 @@
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project). Some examples:                                            -->
-    <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
+    <exercise-inline statement="yes" hint="yes" answer="yes" solution="yes" />
     <exercise-divisional statement="yes" hint="yes" />
     <!-- Style of fill-in-the-blanks: -->
     <fillin textstyle="underline" mathstyle="shade" />
@@ -92,7 +92,7 @@
       table="no"
       listing="no"
       list="no"
-      exercise-inline="yes"
+      exercise-inline="no"
       exercise-divisional="no"
       exercise-worksheet="no"
       exercise-readingquestion="no"
@@ -103,7 +103,7 @@
     <!-- @colors now implemented                               -->
     <!-- also @knowls, @toc, and @banner, although no          -->
     <!-- alternative styles exist yet for those.               -->
-    <css style="default" colors="blue_red" />
+    <css style="oscarlevin" colors="blue_grey" toc="crc" navbar="crc" banner="crc" shell="crc"/>
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
     <search variant="default" />
