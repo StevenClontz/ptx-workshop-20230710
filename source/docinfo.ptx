@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+    <rename element="inlineexercise">Puzzle</rename>
+    <rename element="lemma">Hot Fact</rename>
+    <macros>
+      \newcommand{\R}{\mathbb R}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{tikz}
+    </latex-image-preamble>
+</docinfo>

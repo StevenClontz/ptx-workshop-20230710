@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+    <section xml:id="section-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Section title</title>
+    <p>Hello</p>
+        <lemma xml:id="lem-hi">
+        <statement>
+            <p>
+            hello
+            </p>
+            <p>
+            heya
+            </p>
+        </statement>
+        </lemma>
+    <exercise>
+        <statement>
+        <p>
+            What is <m>1+1</m>?
+        </p>
+        </statement>
+        <hint>
+        <p>
+            Use arithmetic.
+        </p>
+        </hint>
+        <answer>
+        <p>
+            <m>2</m>
+        </p>
+        </answer>
+        <solution>
+        <p>
+            <m>+1</m> means take the successor ordinal. For <m>1=\{0\}</m>...
+        </p>
+        </solution>
+    </exercise>
+        <lemma xml:id="lem-2">
+        <statement>
+            <p>
+            hello
+            </p>
+            <p>
+            heya
+            </p>
+        </statement>
+        </lemma>
+        <lemma xml:id="lem-3">
+        <statement>
+            <p>
+            hello
+            </p>
+            <p>
+            heya
+            </p>
+        </statement>
+        </lemma>
+    <exercise>
+        <statement>
+        <p>
+            What is <m>1+1</m>?
+        </p>
+        </statement>
+        <hint>
+        <p>
+            Use arithmetic.
+        </p>
+        </hint>
+        <answer>
+        <p>
+            <m>2</m>
+        </p>
+        </answer>
+        <solution>
+        <p>
+            <m>+1</m> means take the successor ordinal. For <m>1=\{0\}</m>...
+        </p>
+        </solution>
+    </exercise>
+    <p>Hi mom</p>
+        <figure width="95%" xml:id="green1">
+        <caption>Green one</caption>
+        <image source="1.png" width="80%">
+            <description>It's a green digit 1.</description>
+        </image>
+        </figure>
+        <figure xml:id="blue1">
+        <caption>Blue one</caption>
+        <image width="25%">
+            <description>It's a blue digit 1.</description>
+            <latex-image>
+            \begin{tikzpicture}
+                \node at (0,0) {\Huge \color{blue} 1};
+            \end{tikzpicture}
+            </latex-image>
+        </image>
+        </figure>
+    </section>
